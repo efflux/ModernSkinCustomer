@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE otrs_package [
+	<!ENTITY efflux_logo "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4gIDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgaWQ9IkViZW5lXzEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTg1IDU4IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxODUgNTg7IiB3aWR0aD0iMTg1IiBoZWlnaHQ9IjU4IiB4bWw6c3BhY2U9InByZXNlcnZlIj4gPHN0eWxlIHR5cGU9InRleHQvY3NzIj4gLnN0MHtmaWxsOm5vbmU7fSAuc3Qxe2ZpbGw6IzY2NjY2Njt9IC5zdDJ7ZmlsbDojMDA4QjhCO30gPC9zdHlsZT4gPGc+IDxyZWN0IHg9Ii0zLjIxIiB5PSIyLjUzIiBjbGFzcz0ic3QwIiB3aWR0aD0iMTg4LjIxIiBoZWlnaHQ9IjU1LjQ3Ij48L3JlY3Q+IDxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0xMi4zLDExLjY3djE0LjQ0aDE4LjIydjcuNDVIMTIuM3YxNC43MmgyMy4xMXY3Ljc0SDIuNThWMy45N2gzMi44M3Y3LjdIMTIuM3oiPjwvcGF0aD4gPHBhdGggY2xhc3M9InN0MSIgZD0iTTQzLjg0LDU2LjAyVjI1Ljc4bC0zLjItMC41Yy0wLjctMC4xNC0xLjI1LTAuMzktMS42Ny0wLjc0Yy0wLjQyLTAuMzUtMC42My0wLjg1LTAuNjMtMS40OXYtMy42NGg1LjUxdi0yLjA5IGMwLTIuMTEsMC4zMi00LjAxLDAuOTUtNS42OWMwLjY0LTEuNjgsMS41NS0zLjExLDIuNzQtNC4yOGMxLjE5LTEuMTgsMi42My0yLjA4LDQuMzQtMi43YzEuNy0wLjYyLDMuNjItMC45NCw1Ljc2LTAuOTQgYzEuNywwLDMuMjksMC4yMyw0Ljc1LDAuNjhMNjIuMiw4LjgzYy0wLjAyLDAuMzQtMC4xMiwwLjYxLTAuMjksMC44M2MtMC4xNywwLjIyLTAuMzksMC4zOC0wLjY3LDAuNDkgYy0wLjI4LDAuMTEtMC41OSwwLjE4LTAuOTUsMC4yMnMtMC43NCwwLjA1LTEuMTUsMC4wNWMtMS4wNiwwLTIsMC4xMS0yLjgzLDAuMzRjLTAuODMsMC4yMy0xLjUzLDAuNjItMi4xMSwxLjE5IGMtMC41OCwwLjU2LTEuMDEsMS4zMS0xLjMxLDIuMjNjLTAuMywwLjkyLTAuNDUsMi4wNy0wLjQ1LDMuNDR2MS44aDE0Ljcydi0xLjU1YzAtMS45NywwLjMxLTMuODUsMC45NC01LjY1IGMwLjYyLTEuOCwxLjU3LTMuMzksMi44NC00Ljc3YzEuMjctMS4zOCwyLjg4LTIuNDgsNC44Mi0zLjMxczQuMjQtMS4yNCw2Ljg4LTEuMjRjMi4xOCwwLDQuMjYsMC4wNyw2LjIzLDAuMjIgYzEuOTcsMC4xNCwzLjkyLDAuMjIsNS44NywwLjIyaDQuOTd2NTIuN2gtOC44NlY5LjUxYy0xLjI3LTAuMDUtMi41MS0wLjExLTMuNzMtMC4xOGMtMS4yMS0wLjA3LTIuMjQtMC4xMS0zLjA4LTAuMTEgYy0yLjY5LDAtNC43NCwwLjc1LTYuMTYsMi4yNWMtMS40MiwxLjUtMi4xMiwzLjYzLTIuMTIsNi4zOXYxLjU1aDkuNTh2Ni4zNGgtOS4yOXYzMC4yOGgtOC44OVYyNS43NUg1Mi43M3YzMC4yOEg0My44NHoiPjwvcGF0aD4gPHBhdGggY2xhc3M9InN0MiIgZD0iTTE0MC40MiwxOS4wOXYzNi45NGgtNS40NGMtMS4xOCwwLTEuOTItMC41NC0yLjIzLTEuNjJsLTAuNjEtMi45NWMtMS41MSwxLjU0LTMuMTgsMi43OC01LDMuNzMgYy0xLjgyLDAuOTUtMy45NywxLjQyLTYuNDQsMS40MmMtMi4wMiwwLTMuOC0wLjM0LTUuMzUtMS4wM2MtMS41NS0wLjY4LTIuODUtMS42NS0zLjkxLTIuOWMtMS4wNi0xLjI1LTEuODUtMi43My0yLjM5LTQuNDUgcy0wLjgxLTMuNjEtMC44MS01LjY3VjE5LjA5aDguODl2MjMuNDdjMCwyLjI2LDAuNTIsNCwxLjU3LDUuMjRzMi42MSwxLjg1LDQuNywxLjg1YzEuNTQsMCwyLjk4LTAuMzQsNC4zMi0xLjAzIGMxLjM0LTAuNjgsMi42Mi0xLjYyLDMuODItMi44M1YxOS4wOUgxNDAuNDJ6Ij48L3BhdGg+IDxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik0xODIuMTgsNTYuMDJoLTguNTdjLTAuNjUsMC0xLjE3LTAuMTctMS41Ny0wLjVjLTAuNC0wLjM0LTAuNzMtMC43Mi0wLjk5LTEuMTVsLTcuODEtMTIuODUgYy0wLjEyLDAuNDEtMC4yNiwwLjc5LTAuNDEsMS4xNWMtMC4xNiwwLjM2LTAuMzMsMC43LTAuNTIsMS4wMWwtNi45MSwxMC42OWMtMC4yNiwwLjQxLTAuNTksMC43OS0wLjk3LDEuMTMgYy0wLjM4LDAuMzUtMC44NiwwLjUyLTEuNDQsMC41MmgtNy45NmwxMi42Ny0xOS4wNGwtMTIuMTctMTcuODloOC41N2MwLjY1LDAsMS4xMywwLjA5LDEuNDQsMC4yN2MwLjMxLDAuMTgsMC41OSwwLjQ3LDAuODMsMC44OCBsNy43NCwxMi4zMWMwLjI2LTAuODIsMC42NC0xLjYyLDEuMTItMi40MWw2LjIzLTkuNzJjMC41My0wLjg5LDEuMjEtMS4zMywyLjA1LTEuMzNoOC4xN2wtMTIuMTMsMTcuNUwxODIuMTgsNTYuMDJ6Ij48L3BhdGg+IDwvZz4gPGc+IDwvZz4gPGc+IDwvZz4gPGc+IDwvZz4gPGc+IDwvZz4gPGc+IDwvZz4gPC9zdmc+IA==">
+	<!ENTITY internal_name "ModernSkinCustomer">
+	<!ENTITY description_en "A modern and flat customer skin by Efflux.">
+	<!ENTITY description_de "Ein moderner Kunden-Skin von Efflux.">
+	<!ENTITY database_en "<![CDATA[<li><i>None</i></li>]]>">
+	<!ENTITY database_de "<![CDATA[<li><i>Keine</i></li>]]>">
+	<!ENTITY database_uninstall_en "<![CDATA[<li><i>None</i></li>]]>">
+	<!ENTITY database_uninstall_de "<![CDATA[<li><i>Keine</i></li>]]>">
+	<!ENTITY deployment_en "<![CDATA[<ul><li>To enable the skin for customer: change 'default' to 'ModernSkinCustomer' under <a href='/index.pl?Action=AdminSystemConfiguration;Subaction=View;Setting=Loader::Customer::SelectedSkin' target='_blank'><strong>Loader::Customer::SelectedSkin</strong></a></li></ul>]]>">
+	<!ENTITY deployment_de "<![CDATA[<ul><li>Um diesen Skin für Kunden zu aktivieren: ändern Sie 'default' zu 'ModernSkinCustomer' unter <a href='/index.pl?Action=AdminSystemConfiguration;Subaction=View;Setting=Loader::Customer::SelectedSkin' target='_blank'><strong>Loader::Customer::SelectedSkin</strong></a></li></ul>]]>">
+	<!ENTITY uninstall_en "<![CDATA[<li>Nothing. The setting Loader::Customer::SelectedSkin will be reset if 'ModernSkinCustomer' was selected.</li>]]>">
+	<!ENTITY uninstall_de "<![CDATA[<li>Nichts. Die Einstellung Loader::Customer::SelectedSkin wird zurückgesetzt, wenn sie auf 'ModernSkinCustomer' stand.</li>]]>">
+	<!ENTITY feedback_en "<![CDATA[Help us improve this add-ons by writing a review, reporting a bug, or submitting a feature request on the <a href='https://portal.efflux.de/' target='_blank'><strong>Customer Portal</strong></a>.]]>">
+	<!ENTITY feedback_de "<![CDATA[Helfen Sie uns dieses Add-on zu verbessern, indem Sie im <a href='https://portal.efflux.de/' target='_blank'><strong>Kundenportal</strong></a> eine Rezession schreiben, einen Fehler melden oder einen Feature-Request einreichen.]]>">
+	<!ENTITY css ".IntroInstall { color: #666666; background-color: #f5f5f5 !important; } .IntroInstall h2 { font-size: 2em; text-align: center } .IntroInstall h2 span { border-bottom: 1px solid #028b8b } span.CreatedAndMaintained { font-size: 0.8em }">
+]>
+<otrs_package version="1.0">
+	<Name>&internal_name;</Name>
+	<Version>6.0.1</Version>
+	<Framework>6.0.x</Framework>
+	<PackageIsDownloadable>0</PackageIsDownloadable>
+	<Vendor>Efflux GmbH</Vendor>
+	<URL>https://efflux.de/</URL>
+	<License>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</License>
+	<Description Lang="en">&description_en;</Description>
+	<Description Lang="de">&description_de;</Description>
+	<ChangeLog Version="6.0.1" Date="2020-03-05">Release for OTRS 6.</ChangeLog>
+	<Filelist>
+		<File Permission="660" Location="Kernel/Config/Files/XML/ModernSkinCustomer.xml"/>
+		<File Permission="660" Location="var/httpd/htdocs/skins/Customer/ModernSkinCustomer/css/Core.Default.css"/>
+	</Filelist>
+	<IntroInstall Type="post" Title="&internal_name; installed" Lang="en"><![CDATA[
+		<style>]]>&css;<![CDATA[</style>
+		<h2><span>The <strong>]]>&internal_name;<![CDATA[</strong> add-on has been successfully installed</span></h2><br>
+		<strong>Functionality</strong><br>
+		<p>]]>&description_en;<![CDATA[</p><br>
+		<strong>Database changes</strong>
+		<ul>]]>&database_en;<![CDATA[</ul><br>
+		<strong>To do before deployment</strong>
+		<ul>]]>&deployment_en;<![CDATA[</ul><br><br>
+		<p>]]>&feedback_en;<![CDATA[</p><br>
+		<p><a href='https://efflux.de/en/' target='_blank'><img alt='Efflux Logo' src=']]>&efflux_logo;<![CDATA['></a></p>
+		<span class='CreatedAndMaintained'>Created and provided by Efflux GmbH</span>
+	]]></IntroInstall>
+	<IntroInstall Type="post" Title="&internal_name; installiert" Lang="de"><![CDATA[
+		<style>]]>&css;<![CDATA[</style>
+		<h2><span>Das <strong>]]>&internal_name;<![CDATA[</strong> Add-on wurde erfolgreich installiert</span></h2><br>
+		<strong>Funktionalität</strong><br>
+		<p>]]>&description_de;<![CDATA[</p><br>
+		<strong>Änderungen an der Datenbank</strong>
+		<ul>]]>&database_de;<![CDATA[</ul><br>
+		<strong>Vor dem Einsatz zu erledigen</strong>
+		<ul>]]>&deployment_de;<![CDATA[</ul><br><br>
+		<p>]]>&feedback_de;<![CDATA[</p><br>
+		<p><a href='https://efflux.de/' target='_blank'><img alt='Efflux Logo' src=']]>&efflux_logo;<![CDATA['></a></p>
+		<span class='CreatedAndMaintained'>Erstellt und bereitgestellt von Efflux GmbH</span>
+	]]></IntroInstall>
+	<IntroUninstall Type="pre" Title="&internal_name; uninstall" Lang="en"><![CDATA[
+		<style>]]>&css;<![CDATA[</style>
+		<h2><span>Are you sure you want to uninstall the <strong>]]>&internal_name;<![CDATA[</strong> add-on?</span></h2><br>
+		<strong>Database changes</strong>
+		<ul>]]>&database_uninstall_en;<![CDATA[</ul><br>
+		<strong>To do after uninstalling</strong>
+		<ul>]]>&uninstall_en;<![CDATA[</ul><br><br>
+		<p>]]>&feedback_en;<![CDATA[</p><br>
+		<p><a href='https://efflux.de/en/' target='_blank'><img alt='Efflux Logo' src=']]>&efflux_logo;<![CDATA['></a></p>
+		<span class='CreatedAndMaintained'>Created and provided by Efflux GmbH</span>
+	]]></IntroUninstall>
+	<IntroUninstall Type="pre" Title="&internal_name; deinstallieren" Lang="de"><![CDATA[
+		<style>]]>&css;<![CDATA[</style>
+		<h2><span>Sind Sie sicher, dass Sie das <strong>]]>&internal_name;<![CDATA[</strong> Add-on deinstallieren möchten?</span></h2><br>
+		<strong>Änderungen an der Datenbank</strong>
+		<ul>]]>&database_uninstall_de;<![CDATA[</ul><br>
+		<strong>Nach der Deinstallation zu erledigen</strong>
+		<ul>]]>&uninstall_de;<![CDATA[</ul><br><br>
+		<p>]]>&feedback_de;<![CDATA[</p><br>
+		<p><a href='https://efflux.de/' target='_blank'><img alt='Efflux Logo' src=']]>&efflux_logo;<![CDATA['></a></p>
+		<span class='CreatedAndMaintained'>Erstellt und bereitgestellt von Efflux GmbH</span>
+	]]></IntroUninstall>
+	<CodeUninstall Type="pre"><![CDATA[
+		# Remove DefaultSelectedSkin if set to 'ModernSkinCustomer'.
+		my $ConfigObject = $Kernel::OM->Get('Kernel::Config');
+		my $CurrentSkin = $ConfigObject->Get('Loader::Customer::SelectedSkin');
+		if ($CurrentSkin eq 'ModernSkinCustomer') {
+			my $SysConfigObject = $Kernel::OM->Get('Kernel::System::SysConfig');
+			my %Setting = $SysConfigObject->SettingGet(
+				Name    => 'Loader::Customer::SelectedSkin',
+				Default => 1
+			);
+			my $ExclusiveLockGUID = $SysConfigObject->SettingLock(
+				UserID => 1,
+				Force  => 1,
+				DefaultID => $Setting{DefaultID}
+			);
+			$SysConfigObject->SettingReset(
+				Name => 'Loader::Customer::SelectedSkin', 
+				UserID => 1, 
+				ExclusiveLockGUID => $ExclusiveLockGUID
+			);
+			$SysConfigObject->SettingUnlock(
+				UserID    => 1,
+				DefaultID => $Setting{DefaultID}
+			);
+			$SysConfigObject->ConfigurationDeploy(
+				Comments      => "ModernSkinCustomer reset on uninstall.",
+				UserID        => 1,
+				Force         => 1,
+				DirtySettings => ['Loader::Customer::SelectedSkin']
+			);
+		}
+	]]></CodeUninstall>
+</otrs_package>
