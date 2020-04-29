@@ -37,10 +37,6 @@
 		max-width: 85px;
 	}
 
-	.fa-bars:before {
-		color: #ffffff;
-	}
-
 	/* Header */
 	#Header h1.CompanyName {
 		margin: -6px 0px 0px 20px;
@@ -76,6 +72,7 @@
 
 	#Navigation > ul > li > ul a {
 		color: #444444 !important;
+		border-top: none !important;
 	}
 
 	#Navigation > ul > li > a {
@@ -103,17 +100,29 @@
 		margin: initial;
 	}
 
-	.fa-bars:before, .fa-toggle-left:before, .fa-caret-square-o-left:before {
-		color: #028b8b !important;
+	.fa-toggle-left:before, .fa-caret-square-o-left:before {
+		color: #018b8a !important;
 	}
 
+	.fa-bars:before, .fa-minus:before {
+		color: #018b8a !important;
+	}
+	
 	#Navigation {
 		background-color: #19475b !important;
 	}
 
-	#Navigation ul li > a {
+	.Visible-ScreenXS #Navigation > ul >li > a {
 		border-top: none !important;
 		color: #ffffff !important;
+	}
+
+	#ZoomSidebar, .SidebarColumn {
+		background: #19475b !important;
+	}
+
+	#Metadata, #Activities {
+		border-radius: 3px;
 	}
 
 	/* Ticket form */

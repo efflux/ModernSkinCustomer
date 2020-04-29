@@ -18,7 +18,7 @@
 ]>
 <otrs_package version="1.0">
 	<Name>&internal_name;</Name>
-	<Version>6.0.1</Version>
+	<Version>6.0.2</Version>
 	<Framework>6.0.x</Framework>
 	<PackageIsDownloadable>0</PackageIsDownloadable>
 	<Vendor>Efflux GmbH</Vendor>
@@ -26,6 +26,7 @@
 	<License>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</License>
 	<Description Lang="en">&description_en;</Description>
 	<Description Lang="de">&description_de;</Description>
+	<ChangeLog Version="6.0.2" Date="2020-04-29">Some responsive changes.</ChangeLog>
 	<ChangeLog Version="6.0.1" Date="2020-03-05">Release for OTRS 6.</ChangeLog>
 	<Filelist>
 		<File Permission="660" Location="Kernel/Config/Files/XML/ModernSkinCustomer.xml"/>
